@@ -1,0 +1,60 @@
+{
+    "outTable": {
+        "tablename": "",
+        "tabledtype": {
+            "id": "BIGINT",
+            "cid": "BIGINT",
+            "word": "TEXT",
+            "ocr_word": "TEXT",
+            "word_rs": "TEXT",
+            "ocr_word_rs": "TEXT"
+        },
+        "sql": "",
+        "business": "",
+        "app": "",
+        "countrys": "",
+        "comment": ""
+    },
+
+    "configTable": {
+        "tablename": "ocr_sensitive_config_tb_dt",
+        "tabledtype": {
+            "cid": "BIGINT",
+            "appid": "BIGINT",
+            "businessid": "BIGINT",
+            "countrys": "TEXT",
+            "sql_path": "TEXT",
+            "sql_filename": "TEXT",
+            "table_name": "TEXT",
+            "comment": "TEXT",
+            "ext1": "TEXT",
+            "ext2": "TEXT",
+            "ext3": "TEXT"}
+    },
+    "recordTable": {
+        "tablename": "ocr_sensitive_record_tb_dt",
+        "tabledtype": {
+            "rid":"BIGINT",
+            "cid": "BIGINT",
+            "runtime": "TEXT",
+            "realtime": "TEXT",
+            "finishtime": "TEXT",
+            "step": "TEXT",
+            "success": "TEXT",
+            "ext1": "TEXT",
+            "ext2": "TEXT",
+            "ext3": "TEXT"
+        }
+    },
+    "sendmailTable": {
+        "tablename": "ocr_sensitive_sendmail_tb_dt",
+        "tabledtype": {
+            "sid":"BIGINT",
+            "cid": "BIGINT",
+            "email": "TEXT",
+            "ename": "TEXT",
+            "comment": "TEXT",
+            "ext": "TEXT"
+        }
+    }
+}
