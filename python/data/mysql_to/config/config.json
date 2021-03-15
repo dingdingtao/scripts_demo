@@ -1,0 +1,14 @@
+{
+    "sql": "test.sql",
+
+    "excel_name": "test.xlsx",
+    "excel_sheet": "Sheet1",
+    "excel_columns": [
+        "id",
+        "cid",
+        "word",
+        "ocr_word",
+        "word_rs",
+        "ocr_word_rs"
+    ]
+}

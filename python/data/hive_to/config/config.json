@@ -1,0 +1,32 @@
+{
+    "sql": "test.sql",
+
+    
+    "mysql_table": "wf_likee_live_audio_moan_dt",
+    "mysql_tablehead": [
+        "sday",
+        "country",
+        "model",
+        "zong",
+        "guoshen",
+        "tuishen",
+        "renshen"
+    ],
+
+
+    "excel_name": "test.xlsx",
+    "excel_sheet": "Sheet1",
+    "excel_columns": [
+        "sday",
+        "app",
+        "s1",
+        "s2",
+        "time1",
+        "time2",
+        "time3",
+        "time4",
+        "time5",
+        "time6",
+        "time7"
+    ]
+}

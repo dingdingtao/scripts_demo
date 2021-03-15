@@ -1,0 +1,14 @@
+{
+    "filename": "test_word.xlsx",
+    "sheetname": "Sheet1",
+    "reg_filename": "test_reg.xlsx",
+    "reg_sheetname": "Sheet1",
+
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "user",
+    "password": "password",
+    "db": "db",
+    "charset": "utf8mb4"
+
+}
