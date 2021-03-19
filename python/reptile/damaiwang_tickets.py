@@ -1,7 +1,7 @@
 '''
 Author: dingdingtao
 Date: 2021-03-18 15:04:19
-LastEditTime: 2021-03-18 18:11:37
+LastEditTime: 2021-03-19 10:36:14
 LastEditors: dingdingtao
 Description: 大麦网
 '''
@@ -172,11 +172,12 @@ def run(keyword):
         send_email(rcv_mail, rcc_mail, mail_zt, content, "", "")
     else:
         if error_type == 'KeyError':
-            print("no result.")
+            print("no result.", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
         elif error_type == "Unknown":
-            send_email(rcv_mail, rcc_mail, mail_zt, "script error.", "", "")
+            send_email(rcv_mail, rcc_mail, mail_zt, "script error. {t}".format(t=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), "", "")
         else:
             pass
+    print("-" * 20)
 
 if __name__ == "__main__":
     while True:
