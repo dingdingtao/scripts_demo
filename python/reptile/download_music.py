@@ -1,9 +1,9 @@
 '''
 Author: dingdingtao
 Date: 2021-03-09 10:17:21
-LastEditTime: 2021-03-12 19:14:31
+LastEditTime: 2021-04-08 17:31:30
 LastEditors: dingdingtao
-Description: 
+Description: QQ音乐下载
 '''
 
 import requests

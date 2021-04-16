@@ -1,9 +1,9 @@
 '''
 Author: dingdingtao
 Date: 2021-04-01 16:15:13
-LastEditTime: 2021-04-01 16:15:13
+LastEditTime: 2021-04-08 17:31:13
 LastEditors: dingdingtao
-Description: 
+Description: 爬取谷歌在线表格
 '''
 import requests,random
 from bs4 import BeautifulSoup
